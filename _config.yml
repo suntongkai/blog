@@ -1,7 +1,7 @@
 # Site settings
 title: 优昙的博客
 SEOTitle: youtan blog
-header-img: img/.jpg
+header-img: img/background.jpg
 email: 961979836@qq.com
 description: "description"
 keyword: "keyword"
@@ -11,8 +11,8 @@ github_repo: "https://github.com/suntongkai/blog.git"
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: ""
-sidebar-avatar: /img/.jpg  # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "never or ever, maybe forever"
+sidebar-avatar: /img/aboutme.jpg  # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # SNS settings
 RSS: false

@@ -5,8 +5,8 @@ header-img: img/background.jpg
 email: 961979836@qq.com
 description: "description"
 keyword: "keyword"
-url: "http://suntongkai.github.io/blog"
-baseurl: ""  # for example, '/blog' if your blog hosted on 'host/blog'
+url: "http://suntongkai.github.io"
+baseurl: "/blog"  # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/suntongkai/blog.git"
 
 # Sidebar settings

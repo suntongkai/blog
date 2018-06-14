@@ -16,11 +16,11 @@ sidebar-avatar: /img/aboutme.jpg  # use absolute URL, seeing it's used in both `
 
 # SNS settings
 RSS: false
-weibo_username: 
-zhihu_username:
+#weibo_username: 
+#zhihu_username:
 github_username: suntongkai
-facebook_username: 
-jianshu_username: 
+#facebook_username: 
+#jianshu_username: 
 
 # 评论系统
 # Disqus: https://disqus.com

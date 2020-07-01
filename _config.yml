@@ -1,70 +1,29 @@
 # Site settings
-title: 优昙的博客
-SEOTitle: youtan blog
+title: 四师兄的博客
+SEOTitle: Fourth brother blog
 header-img: img/background.jpg
 email: tksun_mail@qq.com
 description: "description"
-keyword: "keyword"
 url: "http://suntongkai.github.io"
-baseurl: ""  # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/suntongkai/suntongkai.github.io.git"
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "never or ever, maybe forever"
-sidebar-avatar: /img/aboutme.jpg  # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "ever or never, maybe forever"
+sidebar-avatar: /img/aboutme.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # SNS settings
 RSS: false
-weibo_username: 5661743301
-zhihu_username: zhihu
 github_username: suntongkai
-jianshu_username: jianshu
-
-# 评论系统
-# Disqus: https://disqus.com
-# disqus_username: 
-
-# Gitalk
-gitalk:
-  enable: true  #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4  #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d  #生成的clientSecret
-  repo: suntongkai.github.io #仓库名称
-  owner: suntongkai #github用户名
-  admin: suntongkai
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
-
-# 统计
-# Analytics settings
-# Baidu Analytics
-#ba_track_id: b50bf2b12b5338a1845e33832976fd68
-
-# Google Analytics
-#ga_track_id: 'UA-90855596-1'  # Format: UA-xxxxxx-xx
-#ga_domain: auto # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
-
-# Links
-links: [
-    {
-        title: "CSDN",
-        href: "https://www.csdn.net"
-    }
-]
-
-# Featured Tags
-featured-tags: true # 是否使用首页标签
-featured-condition-size: 1  # 相同标签数量大于这个数，才会出现在首页
-
-
-
+weibo_username: 
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+exclude: ["less", "node_modules", "Gruntfile.js", "package.json", "README.md"]
+anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
@@ -77,8 +36,47 @@ gems: [jekyll-paginate]
 markdown: kramdown
 highlighter: rouge
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
+  input: GFM # use Github Flavored Markdown !important
+
+# 评论系统
+# Disqus（https://disqus.com/）需要翻墙
+# disqus_username: 
+
+# Gitalk
+gitalk:
+  enable: true #是否开启Gitalk评论
+  clientID: e98d5c9f462f6e34b65a #生成的clientID
+  clientSecret: c4d24377353ccba679fa4985dfb6a0d8c89bde11 #生成的clientSecret
+  repo: suntongkai.github.io #仓库名称
+  owner: suntongkai #github用户名
+  admin: suntongkai
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+# 统计
+# Analytics settings
+# Baidu Analytics
+ba_track_id: fa6a1d76c8587b881e5e3e74287244cd
+
+# Featured Tags
+featured-tags: true # 是否使用首页标签
+featured-condition-size: 1 # 相同标签数量大于这个数，才会出现在首页
 
 # Progressive Web Apps
-chrome-tab-theme-color: "#000000"
-service-worker: true
+#chrome-tab-theme-color: "#000000"
+#service-worker: true
+
+# Links
+links: [
+    {
+      title: "CSDN",
+      href: "https://www.csdn.net"
+    },
+    {
+      title: "简书",
+      href: "https://www.jianshu.com"
+    },
+    {
+      title: "知乎",
+      href: "https://www.zhihu.com/signin?next=%2F"
+    }
+]

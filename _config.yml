@@ -17,6 +17,7 @@ sidebar-avatar: /img/aboutme.jpg # use absolute URL, seeing it's used in both `/
 RSS: false
 github_username: suntongkai
 weibo_username: 5661743301
+csdn_username: code_monkey_sun
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.

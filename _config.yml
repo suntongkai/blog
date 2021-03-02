@@ -1,6 +1,6 @@
 # Site settings
-title: 四师兄的博客
-SEOTitle: Fourth brother blog
+title: 史蒂夫的博客
+SEOTitle: Steve blog
 header-img: img/background.jpg
 email: tksun_mail@qq.com
 description: "description"
@@ -10,7 +10,7 @@ github_repo: "https://github.com/suntongkai/suntongkai.github.io.git"
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "ever or never, maybe forever"
+sidebar-about-description: "加油史蒂夫！"
 sidebar-avatar: /img/aboutme.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # SNS settings

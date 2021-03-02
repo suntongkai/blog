@@ -1,6 +1,6 @@
 {
-  "name": "Fourth brother blog",
-  "short_name": "Fourth brother blog",
+  "name": "Steve blog",
+  "short_name": "Steve blog",
   "description": "A personal blog",
   "icons": [{
     "src": "icons/pwa_icon_128.jpg",
